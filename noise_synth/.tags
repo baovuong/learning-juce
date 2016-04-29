@@ -1,0 +1,6 @@
+MAINCOMPONENT_H_INCLUDED	/home/bvuong/git/learning_juce/noise_synth/Source/MainComponent.cpp	/^#define MAINCOMPONENT_H_INCLUDED$/;"	macro	line:10	file:
+MainContentComponent	/home/bvuong/git/learning_juce/noise_synth/Source/MainComponent.cpp	/^class MainContentComponent   : public AudioAppComponent$/;"	class	line:19	file:
+MainContentComponent	/home/bvuong/git/learning_juce/noise_synth/Source/MainComponent.cpp	/^    MainContentComponent()$/;"	function	line:23	class:MainContentComponent	signature:()
+~MainContentComponent	/home/bvuong/git/learning_juce/noise_synth/Source/MainComponent.cpp	/^    ~MainContentComponent()$/;"	function	line:31	class:MainContentComponent	signature:()
+random	/home/bvuong/git/learning_juce/noise_synth/Source/MainComponent.cpp	/^    Random random;$/;"	member	line:104	class:MainContentComponent	file:
+createMainContentComponent	/home/bvuong/git/learning_juce/noise_synth/Source/MainComponent.cpp	/^Component* createMainContentComponent()     { return new MainContentComponent(); }$/;"	function	line:111	signature:()

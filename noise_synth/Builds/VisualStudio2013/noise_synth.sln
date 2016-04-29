@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{90A38782-0D21-27EF-71C5-F82F6B16D44E}") = "noise_synth", "noise_synth.vcxproj", "{65CDECC6-3ECA-ADF7-B045-87937FFFC0DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65CDECC6-3ECA-ADF7-B045-87937FFFC0DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65CDECC6-3ECA-ADF7-B045-87937FFFC0DB}.Debug|Win32.Build.0 = Debug|Win32
+		{65CDECC6-3ECA-ADF7-B045-87937FFFC0DB}.Release|Win32.ActiveCfg = Release|Win32
+		{65CDECC6-3ECA-ADF7-B045-87937FFFC0DB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qpUlTU" name="noise_synth" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.noise_synth" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.1">
+  <MAINGROUP id="gIdAco" name="noise_synth">
+    <GROUP id="{677A2831-113B-C3E6-F3F4-84E9F1160871}" name="Source">
+      <FILE id="W2RkcI" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="dGJ0yD" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="noise_synth"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="noise_synth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_events" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_video" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="noise_synth"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="noise_synth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_events" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_video" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="noise_synth"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="noise_synth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_events" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_video" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <CODEBLOCKS_LINUX targetFolder="Builds/CodeBlocksLinux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="noise_synth"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="noise_synth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_events" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_video" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS_LINUX>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

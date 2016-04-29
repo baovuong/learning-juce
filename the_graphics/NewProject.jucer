@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="yws259" name="NewProject" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.NewProject" includeBinaryInAppConfig="1"
+              jucerVersion="4.1.0">
+  <MAINGROUP id="XiIcsL" name="NewProject">
+    <GROUP id="{A7A449C5-A22D-733A-A5F5-B0765A07604E}" name="Source">
+      <FILE id="JPMaXj" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="cEKSq8" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="MM49Tw" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="NewProject"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_events" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_video" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../.local/apps/juce-grapefruit-linux/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <LINUX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
